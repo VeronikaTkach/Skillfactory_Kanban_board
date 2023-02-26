@@ -1,0 +1,37 @@
+.column {
+    width: 282px;
+    min-height: 210px;
+    margin-left: 24px;
+  
+    .header {
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+      font-size: 0.75em;
+      height: 48px;
+      color: #5E6C84;
+      text-transform: uppercase;
+      padding-left: 12px;
+      display: flex;
+      align-items: center;
+      user-select: none;
+      position: sticky;
+      top: 0;
+      background-color: #e5e7ea;
+    }
+  
+    .wrapper {
+      background-color: #F4F5F7;
+      border-bottom-right-radius: 4px;
+      border-bottom-left-radius: 4px;
+  
+      .body {
+        padding: 0 6px 0 6px;
+      }
+  
+      .footer {
+        padding: 12px 6px;
+      }
+    }
+  
+  }
+  

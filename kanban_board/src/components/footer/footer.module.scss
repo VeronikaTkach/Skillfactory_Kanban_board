@@ -1,0 +1,18 @@
+.footer {
+    height: var(--footer-height);
+    display: flex;
+      justify-content: space-between;
+    color: #ffffff;
+    background-color: #0067A3;
+    flex-shrink: 0;
+  
+    padding-left: 12px;
+  
+    span:last-of-type {
+      margin-left: 24px;
+    }
+  }
+  
+  .counts {
+      display: flex;
+  }

@@ -1,0 +1,13 @@
+.layout {
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+    background-color: #0079BF;
+  
+    main {
+      flex-grow: 1;
+      flex-shrink: 0;
+      padding: 24px 16px;
+    }
+  }
+  
